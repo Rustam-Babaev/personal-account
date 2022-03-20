@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+Project personal-account
+==================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is Completed by **Rustam Babaev**
 
-## Available Scripts
 
-In the project directory, you can run:
+General description
+==============
+**personal-account** - "приложение личный кабинет c возможностью входа и просмотра контактов пользователя. Контакты можно редактировать, удалять, а также добавлять новый контакт"
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Alt-текст](https://i.postimg.cc/VLxmzZP8/personal-account.png "personal-account")
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+* React, React Router v6, Redux,
+* json-server
+* MaterialUI
+* Typescript
+* Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Порядок запуска приложения
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Сделать пулл реквест репозитария
+* Открыть терминал и ввести команду "npm run server"
+* Открыть второй терминал и ввести команду "npm run start"
+* Открыть приложение по адресу http://localhost:3000/
+* Данные для тестовой авторизации:
+    email: "test@gmail.com", password: "11111",
+    email: "test2@gmail.com", password: "22222"
+    email: "test3@gmail.com", password: "33333"
+    email: "test4@gmail.com", password: "44444"
+    email: "test5@gmail.com", password: "55555"
+    email: "test6@gmail.com", password: "66666"
+    email: "test7@gmail.com", password: "77777"
+    email: "test8@gmail.com", password: "88888"
+    email: "test9@gmail.com", password: "99999"
